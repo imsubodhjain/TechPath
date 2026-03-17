@@ -31,7 +31,7 @@ export const PRICING_OPTIONS = [
 ];
 
 export const DIFFICULTY_COLORS = {
-  beginner: 'bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-200',
-  intermediate: 'bg-yellow-100 text-yellow-800 dark:bg-yellow-900 dark:text-yellow-200',
-  advanced: 'bg-red-100 text-red-800 dark:bg-red-900 dark:text-red-200',
+  beginner: 'bg-emerald-50 text-emerald-700 dark:bg-emerald-500/10 dark:text-emerald-400 border border-emerald-200 dark:border-emerald-500/20',
+  intermediate: 'bg-amber-50 text-amber-700 dark:bg-amber-500/10 dark:text-amber-400 border border-amber-200 dark:border-amber-500/20',
+  advanced: 'bg-rose-50 text-rose-700 dark:bg-rose-500/10 dark:text-rose-400 border border-rose-200 dark:border-rose-500/20',
 };
