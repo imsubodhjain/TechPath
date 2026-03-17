@@ -1,0 +1,458 @@
+[
+  {
+    "name": "GitHub Copilot",
+    "slug": "github-copilot",
+    "description": "AI pair programmer that suggests code completions, entire functions, and boilerplate directly in your editor. Powered by OpenAI Codex and trained on billions of lines of public code.",
+    "category": "coding",
+    "subcategory": "Code Completion",
+    "pricing": "freemium",
+    "websiteUrl": "https://github.com/features/copilot",
+    "logoUrl": "",
+    "features": [
+      "Real-time code suggestions in VS Code, JetBrains, and Neovim",
+      "Multi-language support including Python, JavaScript, TypeScript, Go, and more",
+      "Chat interface for code explanations and refactoring",
+      "Context-aware completions using open files and project structure",
+      "Pull request summaries and code review assistance"
+    ],
+    "alternativeSlugs": ["cursor", "codeium", "tabnine"],
+    "tags": ["code completion", "ai", "vscode", "pair programming", "github"]
+  },
+  {
+    "name": "Cursor",
+    "slug": "cursor",
+    "description": "An AI-first code editor built on top of VS Code that deeply integrates AI assistance into every aspect of the coding workflow. Supports natural language editing and codebase-wide Q&A.",
+    "category": "coding",
+    "subcategory": "AI Code Editor",
+    "pricing": "freemium",
+    "websiteUrl": "https://cursor.sh",
+    "logoUrl": "",
+    "features": [
+      "AI-powered code editor built on VS Code",
+      "Codebase-wide context understanding for accurate suggestions",
+      "Natural language code editing and generation",
+      "Inline chat and diff-based code review",
+      "Supports GPT-4 and Claude models"
+    ],
+    "alternativeSlugs": ["github-copilot", "codeium", "tabnine"],
+    "tags": ["code editor", "ai", "vscode", "code generation", "developer tools"]
+  },
+  {
+    "name": "Codeium",
+    "slug": "codeium",
+    "description": "Free AI-powered code acceleration toolkit that provides autocomplete, search, and chat capabilities. Supports over 70 programming languages across 40+ editors.",
+    "category": "coding",
+    "subcategory": "Code Completion",
+    "pricing": "free",
+    "websiteUrl": "https://codeium.com",
+    "logoUrl": "",
+    "features": [
+      "Free unlimited autocomplete for individuals",
+      "Support for 70+ programming languages",
+      "Works in 40+ editors including VS Code, JetBrains, and Vim",
+      "In-editor AI chat for code explanations",
+      "Fast inference with low latency suggestions"
+    ],
+    "alternativeSlugs": ["github-copilot", "cursor", "tabnine"],
+    "tags": ["code completion", "free", "ai", "autocomplete", "multi-language"]
+  },
+  {
+    "name": "Tabnine",
+    "slug": "tabnine",
+    "description": "AI code assistant that runs locally or in the cloud, offering privacy-focused code completions. Supports whole-line and full-function completions with team learning capabilities.",
+    "category": "coding",
+    "subcategory": "Code Completion",
+    "pricing": "freemium",
+    "websiteUrl": "https://www.tabnine.com",
+    "logoUrl": "",
+    "features": [
+      "Local and cloud-based AI models for privacy control",
+      "Whole-line and full-function code completions",
+      "Team learning from your codebase patterns",
+      "Support for all major IDEs and editors",
+      "SOC-2 compliant with enterprise security"
+    ],
+    "alternativeSlugs": ["github-copilot", "cursor", "codeium"],
+    "tags": ["code completion", "privacy", "ai", "local", "enterprise"]
+  },
+  {
+    "name": "ChatGPT",
+    "slug": "chatgpt",
+    "description": "OpenAI's conversational AI assistant capable of generating text, answering questions, writing code, and assisting with a wide range of tasks through natural language interaction.",
+    "category": "chatbot",
+    "subcategory": "General Assistant",
+    "pricing": "freemium",
+    "websiteUrl": "https://chat.openai.com",
+    "logoUrl": "",
+    "features": [
+      "Natural language conversation with context retention",
+      "Code generation, debugging, and explanation",
+      "Document summarization and analysis",
+      "Image generation with DALL-E integration",
+      "Plugin ecosystem and custom GPTs"
+    ],
+    "alternativeSlugs": ["claude", "gemini", "perplexity"],
+    "tags": ["chatbot", "gpt", "openai", "conversational ai", "assistant"]
+  },
+  {
+    "name": "Claude",
+    "slug": "claude",
+    "description": "Anthropic's AI assistant known for nuanced understanding, long-context processing, and thoughtful responses. Excels at analysis, coding, math, and creative writing tasks.",
+    "category": "chatbot",
+    "subcategory": "General Assistant",
+    "pricing": "freemium",
+    "websiteUrl": "https://claude.ai",
+    "logoUrl": "",
+    "features": [
+      "200K token context window for long document analysis",
+      "Strong reasoning and analytical capabilities",
+      "Code generation and debugging across languages",
+      "Constitutional AI safety approach",
+      "Artifact creation for documents and code"
+    ],
+    "alternativeSlugs": ["chatgpt", "gemini", "perplexity"],
+    "tags": ["chatbot", "anthropic", "ai assistant", "long context", "analysis"]
+  },
+  {
+    "name": "Gemini",
+    "slug": "gemini",
+    "description": "Google's multimodal AI model that can understand and generate text, code, images, and audio. Integrated across Google products with access to real-time information.",
+    "category": "chatbot",
+    "subcategory": "General Assistant",
+    "pricing": "free",
+    "websiteUrl": "https://gemini.google.com",
+    "logoUrl": "",
+    "features": [
+      "Multimodal understanding of text, images, and code",
+      "Real-time access to Google Search information",
+      "Integration with Google Workspace apps",
+      "Code generation and technical explanations",
+      "Image understanding and generation capabilities"
+    ],
+    "alternativeSlugs": ["chatgpt", "claude", "perplexity"],
+    "tags": ["chatbot", "google", "multimodal", "search", "ai assistant"]
+  },
+  {
+    "name": "Perplexity",
+    "slug": "perplexity",
+    "description": "AI-powered answer engine that provides cited, up-to-date answers by searching the internet in real-time. Combines the power of LLMs with live web search for accurate responses.",
+    "category": "chatbot",
+    "subcategory": "Research Assistant",
+    "pricing": "freemium",
+    "websiteUrl": "https://www.perplexity.ai",
+    "logoUrl": "",
+    "features": [
+      "Real-time web search with cited sources",
+      "Follow-up questions for deeper exploration",
+      "Academic and research paper search",
+      "File upload and analysis capabilities",
+      "Collections for organizing research threads"
+    ],
+    "alternativeSlugs": ["chatgpt", "claude", "gemini"],
+    "tags": ["search", "research", "citations", "ai", "answer engine"]
+  },
+  {
+    "name": "Midjourney",
+    "slug": "midjourney",
+    "description": "Leading AI image generation tool that creates stunning, artistic images from text prompts. Known for its distinctive aesthetic quality and creative capabilities via Discord.",
+    "category": "image-generation",
+    "subcategory": "Image Generation",
+    "pricing": "paid",
+    "websiteUrl": "https://www.midjourney.com",
+    "logoUrl": "",
+    "features": [
+      "High-quality artistic image generation from text prompts",
+      "Style variation and blending between images",
+      "Upscaling and aspect ratio controls",
+      "Image-to-image generation and editing",
+      "Community gallery and prompt exploration"
+    ],
+    "alternativeSlugs": ["dall-e", "canva-ai", "figma-ai"],
+    "tags": ["image generation", "art", "creative", "text-to-image", "design"]
+  },
+  {
+    "name": "DALL-E",
+    "slug": "dall-e",
+    "description": "OpenAI's image generation model that creates realistic and creative images from natural language descriptions. Integrated into ChatGPT and available via API.",
+    "category": "image-generation",
+    "subcategory": "Image Generation",
+    "pricing": "freemium",
+    "websiteUrl": "https://openai.com/dall-e-3",
+    "logoUrl": "",
+    "features": [
+      "Photorealistic image generation from text descriptions",
+      "Inpainting and outpainting for image editing",
+      "Integrated into ChatGPT for conversational creation",
+      "API access for programmatic image generation",
+      "Safety filters and content moderation"
+    ],
+    "alternativeSlugs": ["midjourney", "canva-ai", "figma-ai"],
+    "tags": ["image generation", "openai", "text-to-image", "creative", "api"]
+  },
+  {
+    "name": "Canva AI",
+    "slug": "canva-ai",
+    "description": "AI-powered design features built into Canva's popular graphic design platform. Generate images, remove backgrounds, write copy, and create presentations with AI assistance.",
+    "category": "design",
+    "subcategory": "Graphic Design",
+    "pricing": "freemium",
+    "websiteUrl": "https://www.canva.com/ai-image-generator/",
+    "logoUrl": "",
+    "features": [
+      "Magic Design for automatic layout generation",
+      "Text-to-image generation within designs",
+      "Background remover and magic eraser",
+      "AI-powered copywriting for designs",
+      "Brand kit consistency with AI suggestions"
+    ],
+    "alternativeSlugs": ["figma-ai", "midjourney", "dall-e"],
+    "tags": ["design", "graphic design", "templates", "ai", "presentations"]
+  },
+  {
+    "name": "Figma AI",
+    "slug": "figma-ai",
+    "description": "AI features integrated into Figma's collaborative design tool. Auto-generate designs, rename layers intelligently, and get AI-powered suggestions for UI components.",
+    "category": "design",
+    "subcategory": "UI/UX Design",
+    "pricing": "freemium",
+    "websiteUrl": "https://www.figma.com/ai/",
+    "logoUrl": "",
+    "features": [
+      "AI-powered design generation from prompts",
+      "Intelligent layer renaming and organization",
+      "Auto-layout suggestions and component detection",
+      "Visual search across design files",
+      "Collaborative real-time design with AI assist"
+    ],
+    "alternativeSlugs": ["canva-ai", "midjourney", "dall-e"],
+    "tags": ["design", "ui/ux", "figma", "prototyping", "collaboration"]
+  },
+  {
+    "name": "Notion AI",
+    "slug": "notion-ai",
+    "description": "AI writing and knowledge assistant built into Notion's all-in-one workspace. Summarize notes, generate content, brainstorm ideas, and translate text directly within your documents.",
+    "category": "productivity",
+    "subcategory": "Writing & Notes",
+    "pricing": "freemium",
+    "websiteUrl": "https://www.notion.so/product/ai",
+    "logoUrl": "",
+    "features": [
+      "AI writing assistance within Notion documents",
+      "Meeting notes summarization",
+      "Content generation and brainstorming",
+      "Translation across multiple languages",
+      "Q&A across your entire Notion workspace"
+    ],
+    "alternativeSlugs": ["otter-ai", "gamma", "tome"],
+    "tags": ["productivity", "writing", "notes", "workspace", "ai assistant"]
+  },
+  {
+    "name": "Otter.ai",
+    "slug": "otter-ai",
+    "description": "AI meeting assistant that provides real-time transcription, automated meeting notes, and action item extraction. Integrates with Zoom, Google Meet, and Microsoft Teams.",
+    "category": "productivity",
+    "subcategory": "Meeting Assistant",
+    "pricing": "freemium",
+    "websiteUrl": "https://otter.ai",
+    "logoUrl": "",
+    "features": [
+      "Real-time meeting transcription",
+      "Automated meeting summary and action items",
+      "Integration with Zoom, Meet, and Teams",
+      "Speaker identification and attribution",
+      "Searchable transcript archive"
+    ],
+    "alternativeSlugs": ["notion-ai", "gamma", "tome"],
+    "tags": ["transcription", "meetings", "productivity", "notes", "collaboration"]
+  },
+  {
+    "name": "Gamma",
+    "slug": "gamma",
+    "description": "AI-powered presentation and document creation tool that generates beautiful slides, docs, and webpages from simple prompts. No design skills required.",
+    "category": "productivity",
+    "subcategory": "Presentations",
+    "pricing": "freemium",
+    "websiteUrl": "https://gamma.app",
+    "logoUrl": "",
+    "features": [
+      "Generate complete presentations from text prompts",
+      "Beautiful templates with smart formatting",
+      "One-click redesign and theme switching",
+      "Embedded media, charts, and interactive elements",
+      "Export to PDF and PowerPoint formats"
+    ],
+    "alternativeSlugs": ["tome", "notion-ai", "canva-ai"],
+    "tags": ["presentations", "slides", "ai", "design", "documents"]
+  },
+  {
+    "name": "Tome",
+    "slug": "tome",
+    "description": "AI-native storytelling and presentation platform that generates narratives, layouts, and visuals from your ideas. Designed for fast creation of polished presentations.",
+    "category": "productivity",
+    "subcategory": "Presentations",
+    "pricing": "freemium",
+    "websiteUrl": "https://tome.app",
+    "logoUrl": "",
+    "features": [
+      "AI-generated presentation narratives and layouts",
+      "Intelligent image and content suggestions",
+      "One-click presentation generation from prompts",
+      "Interactive web-based presentations",
+      "Built-in analytics for presentation engagement"
+    ],
+    "alternativeSlugs": ["gamma", "notion-ai", "canva-ai"],
+    "tags": ["presentations", "storytelling", "ai", "design", "narratives"]
+  },
+  {
+    "name": "Semantic Scholar",
+    "slug": "semantic-scholar",
+    "description": "AI-powered academic search engine by the Allen Institute for AI. Finds relevant research papers, extracts key insights, and provides citation context for faster literature review.",
+    "category": "research",
+    "subcategory": "Academic Search",
+    "pricing": "free",
+    "websiteUrl": "https://www.semanticscholar.org",
+    "logoUrl": "",
+    "features": [
+      "AI-powered research paper discovery",
+      "TLDR summaries for papers",
+      "Citation context and influence scoring",
+      "Author and topic pages for exploration",
+      "Free API access for developers"
+    ],
+    "alternativeSlugs": ["connected-papers", "elicit", "consensus"],
+    "tags": ["research", "academic", "papers", "citations", "free"]
+  },
+  {
+    "name": "Connected Papers",
+    "slug": "connected-papers",
+    "description": "Visual tool for discovering and exploring academic papers related to a field of work. Creates interactive graphs showing how papers are connected through citations and references.",
+    "category": "research",
+    "subcategory": "Literature Review",
+    "pricing": "free",
+    "websiteUrl": "https://www.connectedpapers.com",
+    "logoUrl": "",
+    "features": [
+      "Visual graph of related research papers",
+      "Discover prior and derivative works",
+      "No account required for basic usage",
+      "Interactive exploration of paper connections",
+      "Integration with reference managers"
+    ],
+    "alternativeSlugs": ["semantic-scholar", "elicit", "consensus"],
+    "tags": ["research", "visualization", "papers", "citations", "literature review"]
+  },
+  {
+    "name": "Elicit",
+    "slug": "elicit",
+    "description": "AI research assistant that helps find, summarize, and extract data from academic papers. Uses language models to automate research workflows and systematic reviews.",
+    "category": "research",
+    "subcategory": "Research Assistant",
+    "pricing": "freemium",
+    "websiteUrl": "https://elicit.com",
+    "logoUrl": "",
+    "features": [
+      "AI-powered literature search and summarization",
+      "Automatic data extraction from papers",
+      "Research workflow automation",
+      "Column-based paper comparison tables",
+      "Systematic review assistance"
+    ],
+    "alternativeSlugs": ["semantic-scholar", "connected-papers", "consensus"],
+    "tags": ["research", "ai", "papers", "data extraction", "systematic review"]
+  },
+  {
+    "name": "Consensus",
+    "slug": "consensus",
+    "description": "AI search engine that finds and synthesizes answers from scientific research papers. Provides evidence-based answers with direct links to peer-reviewed sources.",
+    "category": "research",
+    "subcategory": "Evidence Search",
+    "pricing": "freemium",
+    "websiteUrl": "https://consensus.app",
+    "logoUrl": "",
+    "features": [
+      "Evidence-based answers from research papers",
+      "Consensus meter showing scientific agreement",
+      "Study snapshot summaries",
+      "Peer-reviewed source citations",
+      "Topic synthesis across multiple papers"
+    ],
+    "alternativeSlugs": ["semantic-scholar", "connected-papers", "elicit"],
+    "tags": ["research", "evidence-based", "science", "papers", "consensus"]
+  },
+  {
+    "name": "GitHub Actions",
+    "slug": "github-actions",
+    "description": "GitHub's built-in CI/CD and automation platform that lets you build, test, and deploy code directly from your repositories. Offers thousands of community-created workflow actions.",
+    "category": "devops-tools",
+    "subcategory": "CI/CD",
+    "pricing": "free",
+    "websiteUrl": "https://github.com/features/actions",
+    "logoUrl": "",
+    "features": [
+      "Automated CI/CD pipelines from GitHub repos",
+      "Thousands of community marketplace actions",
+      "Matrix builds for multi-platform testing",
+      "Secrets management for secure deployments",
+      "Free tier with 2,000 minutes/month"
+    ],
+    "alternativeSlugs": ["vercel", "hugging-face", "kaggle"],
+    "tags": ["ci/cd", "automation", "devops", "github", "deployment"]
+  },
+  {
+    "name": "Vercel",
+    "slug": "vercel",
+    "description": "Frontend cloud platform for deploying web applications with zero configuration. Offers serverless functions, edge computing, and seamless integration with Next.js and other frameworks.",
+    "category": "devops-tools",
+    "subcategory": "Deployment Platform",
+    "pricing": "freemium",
+    "websiteUrl": "https://vercel.com",
+    "logoUrl": "",
+    "features": [
+      "Zero-config deployments from Git",
+      "Edge network for global performance",
+      "Serverless and edge functions",
+      "Preview deployments for every pull request",
+      "Built-in analytics and speed insights"
+    ],
+    "alternativeSlugs": ["github-actions", "hugging-face", "kaggle"],
+    "tags": ["deployment", "hosting", "serverless", "edge", "frontend"]
+  },
+  {
+    "name": "Hugging Face",
+    "slug": "hugging-face",
+    "description": "The leading open-source AI community platform hosting thousands of pre-trained models, datasets, and Spaces for ML demos. The go-to hub for NLP, computer vision, and generative AI.",
+    "category": "devops-tools",
+    "subcategory": "ML Platform",
+    "pricing": "free",
+    "websiteUrl": "https://huggingface.co",
+    "logoUrl": "",
+    "features": [
+      "Hub with 500K+ pre-trained models",
+      "Datasets library with thousands of datasets",
+      "Spaces for hosting ML demos and apps",
+      "Transformers library for state-of-the-art NLP",
+      "Inference API for model deployment"
+    ],
+    "alternativeSlugs": ["kaggle", "github-actions", "vercel"],
+    "tags": ["ml platform", "models", "open source", "nlp", "transformers"]
+  },
+  {
+    "name": "Kaggle",
+    "slug": "kaggle",
+    "description": "Google's data science and machine learning community platform offering competitions, free GPU notebooks, datasets, and learning courses. The world's largest ML competition platform.",
+    "category": "devops-tools",
+    "subcategory": "Data Science Platform",
+    "pricing": "free",
+    "websiteUrl": "https://www.kaggle.com",
+    "logoUrl": "",
+    "features": [
+      "ML competitions with real-world problems and prizes",
+      "Free GPU and TPU Jupyter notebooks",
+      "Massive public dataset repository",
+      "Free micro-courses for data science",
+      "Community discussion forums and code sharing"
+    ],
+    "alternativeSlugs": ["hugging-face", "github-actions", "vercel"],
+    "tags": ["data science", "competitions", "datasets", "notebooks", "free gpu"]
+  }
+]

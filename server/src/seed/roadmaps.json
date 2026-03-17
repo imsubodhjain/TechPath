@@ -1,0 +1,1482 @@
+[
+  {
+    "title": "Frontend Development",
+    "slug": "frontend-development",
+    "description": "Master the art of building beautiful, responsive, and interactive user interfaces. This roadmap takes you from HTML basics all the way through modern React development, testing, and deployment.",
+    "icon": "Monitor",
+    "category": "frontend",
+    "difficulty": "beginner",
+    "estimatedHours": 300,
+    "tags": ["html", "css", "javascript", "react", "frontend", "web development"],
+    "sections": [
+      {
+        "title": "HTML Fundamentals",
+        "order": 1,
+        "topics": [
+          {
+            "title": "HTML Document Structure",
+            "order": 1,
+            "description": "Learn the foundational building blocks of every web page including doctype, head, body, and semantic elements.",
+            "estimatedMinutes": 120,
+            "difficulty": "beginner",
+            "resources": [
+              { "title": "MDN - Introduction to HTML", "url": "https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML", "type": "docs", "isFree": true },
+              { "title": "freeCodeCamp - Responsive Web Design (HTML)", "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/", "type": "course", "isFree": true },
+              { "title": "HTML Crash Course For Absolute Beginners - Traversy Media", "url": "https://www.youtube.com/watch?v=UB1O30fR-EE", "type": "video", "isFree": true }
+            ],
+            "tags": ["html", "semantics", "document structure"]
+          },
+          {
+            "title": "Forms and Validation",
+            "order": 2,
+            "description": "Build interactive forms with proper input types, labels, accessibility attributes, and client-side validation techniques.",
+            "estimatedMinutes": 90,
+            "difficulty": "beginner",
+            "resources": [
+              { "title": "MDN - Web Forms", "url": "https://developer.mozilla.org/en-US/docs/Learn/Forms", "type": "docs", "isFree": true },
+              { "title": "Web.dev - Learn Forms", "url": "https://web.dev/learn/forms/", "type": "tutorial", "isFree": true }
+            ],
+            "tags": ["html", "forms", "validation", "accessibility"]
+          },
+          {
+            "title": "Semantic HTML & Accessibility",
+            "order": 3,
+            "description": "Understand semantic elements like article, nav, main, aside, and how to build web pages that are accessible to all users.",
+            "estimatedMinutes": 90,
+            "difficulty": "beginner",
+            "resources": [
+              { "title": "MDN - HTML: A good basis for accessibility", "url": "https://developer.mozilla.org/en-US/docs/Learn/Accessibility/HTML", "type": "docs", "isFree": true },
+              { "title": "Web Accessibility by Google - Udacity", "url": "https://www.udacity.com/course/web-accessibility--ud891", "type": "course", "isFree": true }
+            ],
+            "tags": ["html", "semantic", "accessibility", "a11y"]
+          }
+        ]
+      },
+      {
+        "title": "CSS Fundamentals",
+        "order": 2,
+        "topics": [
+          {
+            "title": "CSS Selectors, Box Model & Layout",
+            "order": 1,
+            "description": "Master CSS selectors, the box model, and traditional layout techniques including display, position, and float properties.",
+            "estimatedMinutes": 150,
+            "difficulty": "beginner",
+            "resources": [
+              { "title": "MDN - CSS First Steps", "url": "https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps", "type": "docs", "isFree": true },
+              { "title": "CSS Crash Course For Absolute Beginners - Traversy Media", "url": "https://www.youtube.com/watch?v=yfoY53QXEnI", "type": "video", "isFree": true },
+              { "title": "freeCodeCamp - Responsive Web Design (CSS)", "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/", "type": "course", "isFree": true }
+            ],
+            "tags": ["css", "selectors", "box model", "layout"]
+          },
+          {
+            "title": "Flexbox and Grid",
+            "order": 2,
+            "description": "Learn modern CSS layout systems: Flexbox for one-dimensional layouts and CSS Grid for two-dimensional layouts.",
+            "estimatedMinutes": 120,
+            "difficulty": "beginner",
+            "resources": [
+              { "title": "CSS-Tricks - A Complete Guide to Flexbox", "url": "https://css-tricks.com/snippets/css/a-guide-to-flexbox/", "type": "article", "isFree": true },
+              { "title": "CSS-Tricks - A Complete Guide to Grid", "url": "https://css-tricks.com/snippets/css/complete-guide-grid/", "type": "article", "isFree": true },
+              { "title": "Flexbox Froggy", "url": "https://flexboxfroggy.com/", "type": "tutorial", "isFree": true },
+              { "title": "Grid Garden", "url": "https://cssgridgarden.com/", "type": "tutorial", "isFree": true }
+            ],
+            "tags": ["css", "flexbox", "grid", "layout"]
+          },
+          {
+            "title": "Responsive Design & Media Queries",
+            "order": 3,
+            "description": "Build websites that look great on any screen size using media queries, relative units, and mobile-first design principles.",
+            "estimatedMinutes": 90,
+            "difficulty": "beginner",
+            "resources": [
+              { "title": "MDN - Responsive Design", "url": "https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design", "type": "docs", "isFree": true },
+              { "title": "Web.dev - Responsive Web Design Basics", "url": "https://web.dev/responsive-web-design-basics/", "type": "article", "isFree": true }
+            ],
+            "tags": ["css", "responsive", "media queries", "mobile-first"]
+          }
+        ]
+      },
+      {
+        "title": "JavaScript Essentials",
+        "order": 3,
+        "topics": [
+          {
+            "title": "Core JavaScript: Variables, Types & Functions",
+            "order": 1,
+            "description": "Learn JavaScript fundamentals including variables, data types, operators, control flow, functions, and scope.",
+            "estimatedMinutes": 180,
+            "difficulty": "beginner",
+            "resources": [
+              { "title": "MDN - JavaScript First Steps", "url": "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps", "type": "docs", "isFree": true },
+              { "title": "JavaScript.info - The Modern JavaScript Tutorial", "url": "https://javascript.info/", "type": "tutorial", "isFree": true },
+              { "title": "JavaScript Crash Course For Beginners - Traversy Media", "url": "https://www.youtube.com/watch?v=hdI2bqOjy3c", "type": "video", "isFree": true }
+            ],
+            "tags": ["javascript", "variables", "functions", "fundamentals"]
+          },
+          {
+            "title": "DOM Manipulation & Events",
+            "order": 2,
+            "description": "Interact with web pages dynamically by selecting elements, modifying content, handling user events, and traversing the DOM tree.",
+            "estimatedMinutes": 120,
+            "difficulty": "beginner",
+            "resources": [
+              { "title": "MDN - Introduction to the DOM", "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction", "type": "docs", "isFree": true },
+              { "title": "JavaScript DOM Tutorial - The Net Ninja", "url": "https://www.youtube.com/playlist?list=PL4cUxeGkcC9gfoKa5la9dsdCNpuey2C-V", "type": "video", "isFree": true }
+            ],
+            "tags": ["javascript", "dom", "events", "manipulation"]
+          },
+          {
+            "title": "Asynchronous JavaScript",
+            "order": 3,
+            "description": "Understand callbacks, promises, async/await, and the event loop for handling asynchronous operations like API calls and timers.",
+            "estimatedMinutes": 150,
+            "difficulty": "intermediate",
+            "resources": [
+              { "title": "MDN - Asynchronous JavaScript", "url": "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous", "type": "docs", "isFree": true },
+              { "title": "JavaScript.info - Promises, async/await", "url": "https://javascript.info/async", "type": "tutorial", "isFree": true },
+              { "title": "Asynchronous JavaScript Course - freeCodeCamp", "url": "https://www.youtube.com/watch?v=ZYb_ZU8LNxs", "type": "video", "isFree": true }
+            ],
+            "tags": ["javascript", "async", "promises", "fetch"]
+          },
+          {
+            "title": "ES6+ Modern JavaScript",
+            "order": 4,
+            "description": "Master modern JavaScript features including arrow functions, destructuring, spread/rest operators, modules, template literals, and classes.",
+            "estimatedMinutes": 120,
+            "difficulty": "intermediate",
+            "resources": [
+              { "title": "MDN - JavaScript Reference", "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference", "type": "docs", "isFree": true },
+              { "title": "ES6 JavaScript Tutorial - freeCodeCamp", "url": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#es6", "type": "course", "isFree": true }
+            ],
+            "tags": ["javascript", "es6", "modern javascript", "modules"]
+          }
+        ]
+      },
+      {
+        "title": "React Fundamentals",
+        "order": 4,
+        "topics": [
+          {
+            "title": "React Core Concepts: Components & JSX",
+            "order": 1,
+            "description": "Learn the building blocks of React including JSX syntax, functional components, props, and component composition patterns.",
+            "estimatedMinutes": 180,
+            "difficulty": "intermediate",
+            "resources": [
+              { "title": "React Official Docs - Quick Start", "url": "https://react.dev/learn", "type": "docs", "isFree": true },
+              { "title": "React Course For Beginners - freeCodeCamp", "url": "https://www.youtube.com/watch?v=bMknfKXIFA8", "type": "video", "isFree": true },
+              { "title": "React Tutorial - W3Schools", "url": "https://www.w3schools.com/react/", "type": "tutorial", "isFree": true }
+            ],
+            "tags": ["react", "components", "jsx", "props"]
+          },
+          {
+            "title": "State Management with Hooks",
+            "order": 2,
+            "description": "Master React hooks including useState, useEffect, useContext, useReducer, useMemo, and custom hooks for managing component state and side effects.",
+            "estimatedMinutes": 180,
+            "difficulty": "intermediate",
+            "resources": [
+              { "title": "React Docs - Managing State", "url": "https://react.dev/learn/managing-state", "type": "docs", "isFree": true },
+              { "title": "React Hooks Explained - Fireship", "url": "https://www.youtube.com/watch?v=TNhaISOUy6Q", "type": "video", "isFree": true },
+              { "title": "useHooks - Easy to understand React Hook recipes", "url": "https://usehooks.com/", "type": "tutorial", "isFree": true }
+            ],
+            "tags": ["react", "hooks", "state management", "useEffect"]
+          },
+          {
+            "title": "React Router & Navigation",
+            "order": 3,
+            "description": "Implement client-side routing with React Router including dynamic routes, nested routes, protected routes, and navigation guards.",
+            "estimatedMinutes": 90,
+            "difficulty": "intermediate",
+            "resources": [
+              { "title": "React Router Official Docs", "url": "https://reactrouter.com/en/main", "type": "docs", "isFree": true },
+              { "title": "React Router Tutorial - The Net Ninja", "url": "https://www.youtube.com/watch?v=Ul3y1LXxzdU", "type": "video", "isFree": true }
+            ],
+            "tags": ["react", "routing", "react-router", "navigation"]
+          }
+        ]
+      },
+      {
+        "title": "Styling in React",
+        "order": 5,
+        "topics": [
+          {
+            "title": "CSS Modules & Styled Components",
+            "order": 1,
+            "description": "Explore component-scoped styling approaches including CSS Modules, Styled Components, and Emotion for maintainable React styles.",
+            "estimatedMinutes": 90,
+            "difficulty": "intermediate",
+            "resources": [
+              { "title": "CSS Modules - GitHub", "url": "https://github.com/css-modules/css-modules", "type": "docs", "isFree": true },
+              { "title": "Styled Components Official Docs", "url": "https://styled-components.com/docs", "type": "docs", "isFree": true }
+            ],
+            "tags": ["react", "css modules", "styled-components", "styling"]
+          },
+          {
+            "title": "Tailwind CSS with React",
+            "order": 2,
+            "description": "Build modern UIs rapidly with Tailwind CSS utility classes, learn configuration, responsive design, and integration with React projects.",
+            "estimatedMinutes": 120,
+            "difficulty": "intermediate",
+            "resources": [
+              { "title": "Tailwind CSS Official Docs", "url": "https://tailwindcss.com/docs/installation", "type": "docs", "isFree": true },
+              { "title": "Tailwind CSS Crash Course - Traversy Media", "url": "https://www.youtube.com/watch?v=UBOj6rqRUME", "type": "video", "isFree": true },
+              { "title": "Tailwind CSS Full Course - freeCodeCamp", "url": "https://www.youtube.com/watch?v=ft30zcMlFao", "type": "video", "isFree": true }
+            ],
+            "tags": ["tailwind", "css", "utility-first", "react"]
+          }
+        ]
+      },
+      {
+        "title": "Testing Frontend Applications",
+        "order": 6,
+        "topics": [
+          {
+            "title": "Unit Testing with Jest & React Testing Library",
+            "order": 1,
+            "description": "Write unit and integration tests for React components using Jest as the test runner and React Testing Library for DOM queries.",
+            "estimatedMinutes": 150,
+            "difficulty": "intermediate",
+            "resources": [
+              { "title": "React Testing Library Docs", "url": "https://testing-library.com/docs/react-testing-library/intro/", "type": "docs", "isFree": true },
+              { "title": "Jest Official Docs", "url": "https://jestjs.io/docs/getting-started", "type": "docs", "isFree": true },
+              { "title": "React Testing Crash Course - Traversy Media", "url": "https://www.youtube.com/watch?v=OVNjsIto9xM", "type": "video", "isFree": true }
+            ],
+            "tags": ["testing", "jest", "react-testing-library", "unit tests"]
+          },
+          {
+            "title": "End-to-End Testing with Cypress",
+            "order": 2,
+            "description": "Learn to write comprehensive end-to-end tests that simulate real user interactions across your entire application.",
+            "estimatedMinutes": 120,
+            "difficulty": "intermediate",
+            "resources": [
+              { "title": "Cypress Official Docs", "url": "https://docs.cypress.io/guides/overview/why-cypress", "type": "docs", "isFree": true },
+              { "title": "Cypress End-to-End Testing - Fireship", "url": "https://www.youtube.com/watch?v=BQqzfHQkREo", "type": "video", "isFree": true }
+            ],
+            "tags": ["testing", "cypress", "e2e", "integration"]
+          }
+        ]
+      },
+      {
+        "title": "Build Tools & Deployment",
+        "order": 7,
+        "topics": [
+          {
+            "title": "Vite, Webpack & Module Bundling",
+            "order": 1,
+            "description": "Understand how modern build tools work, configure Vite for lightning-fast development, and learn the fundamentals of module bundling.",
+            "estimatedMinutes": 90,
+            "difficulty": "intermediate",
+            "resources": [
+              { "title": "Vite Official Guide", "url": "https://vitejs.dev/guide/", "type": "docs", "isFree": true },
+              { "title": "Webpack Concepts", "url": "https://webpack.js.org/concepts/", "type": "docs", "isFree": true },
+              { "title": "Vite in 100 Seconds - Fireship", "url": "https://www.youtube.com/watch?v=KCrXgy8qtjM", "type": "video", "isFree": true }
+            ],
+            "tags": ["vite", "webpack", "build tools", "bundling"]
+          },
+          {
+            "title": "Deploying Frontend Apps",
+            "order": 2,
+            "description": "Deploy React applications to platforms like Vercel, Netlify, and GitHub Pages. Learn about CI/CD, environment variables, and production optimization.",
+            "estimatedMinutes": 90,
+            "difficulty": "intermediate",
+            "resources": [
+              { "title": "Vercel Deployment Docs", "url": "https://vercel.com/docs", "type": "docs", "isFree": true },
+              { "title": "Netlify Docs - Get Started", "url": "https://docs.netlify.com/get-started/", "type": "docs", "isFree": true },
+              { "title": "Deploy React App - Traversy Media", "url": "https://www.youtube.com/watch?v=Ey_90l9GaAw", "type": "video", "isFree": true }
+            ],
+            "tags": ["deployment", "vercel", "netlify", "ci/cd"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Backend Development",
+    "slug": "backend-development",
+    "description": "Build robust and scalable server-side applications with Node.js and Express. Learn database design, RESTful API development, authentication, and deployment best practices.",
+    "icon": "Server",
+    "category": "backend",
+    "difficulty": "beginner",
+    "estimatedHours": 280,
+    "tags": ["node.js", "express", "mongodb", "api", "backend", "server"],
+    "sections": [
+      {
+        "title": "Node.js Fundamentals",
+        "order": 1,
+        "topics": [
+          {
+            "title": "Node.js Core: Modules, File System & Events",
+            "order": 1,
+            "description": "Understand the Node.js runtime, core modules like fs, path, and events, the event loop, and how Node.js handles asynchronous I/O.",
+            "estimatedMinutes": 180,
+            "difficulty": "beginner",
+            "resources": [
+              { "title": "Node.js Official Docs - Getting Started", "url": "https://nodejs.org/en/docs/guides/getting-started-guide", "type": "docs", "isFree": true },
+              { "title": "Node.js Tutorial for Beginners - freeCodeCamp", "url": "https://www.youtube.com/watch?v=TlB_eWDSMt4", "type": "video", "isFree": true },
+              { "title": "Node.js Crash Course - Traversy Media", "url": "https://www.youtube.com/watch?v=fBNz5xF-Kx4", "type": "video", "isFree": true }
+            ],
+            "tags": ["node.js", "modules", "event loop", "runtime"]
+          },
+          {
+            "title": "npm & Package Management",
+            "order": 2,
+            "description": "Learn npm essentials including initializing projects, managing dependencies, semantic versioning, scripts, and understanding package.json.",
+            "estimatedMinutes": 60,
+            "difficulty": "beginner",
+            "resources": [
+              { "title": "npm Official Docs", "url": "https://docs.npmjs.com/about-npm", "type": "docs", "isFree": true },
+              { "title": "npm Crash Course - Traversy Media", "url": "https://www.youtube.com/watch?v=jHDhaSSKmB0", "type": "video", "isFree": true }
+            ],
+            "tags": ["npm", "packages", "dependencies", "node.js"]
+          }
+        ]
+      },
+      {
+        "title": "Express.js Framework",
+        "order": 2,
+        "topics": [
+          {
+            "title": "Express Setup, Routing & Middleware",
+            "order": 1,
+            "description": "Build a web server with Express.js, define routes, create and use middleware, handle request/response objects, and serve static files.",
+            "estimatedMinutes": 150,
+            "difficulty": "beginner",
+            "resources": [
+              { "title": "Express.js Official Guide", "url": "https://expressjs.com/en/guide/routing.html", "type": "docs", "isFree": true },
+              { "title": "Express.js Crash Course - Traversy Media", "url": "https://www.youtube.com/watch?v=L72fhGm1tfE", "type": "video", "isFree": true },
+              { "title": "MDN - Express/Node Introduction", "url": "https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introduction", "type": "tutorial", "isFree": true }
+            ],
+            "tags": ["express", "routing", "middleware", "http"]
+          },
+          {
+            "title": "Error Handling & Validation",
+            "order": 2,
+            "description": "Implement robust error handling middleware, input validation with libraries like Joi or express-validator, and structured error responses.",
+            "estimatedMinutes": 90,
+            "difficulty": "beginner",
+            "resources": [
+              { "title": "Express.js Error Handling Guide", "url": "https://expressjs.com/en/guide/error-handling.html", "type": "docs", "isFree": true },
+              { "title": "express-validator Docs", "url": "https://express-validator.github.io/docs/", "type": "docs", "isFree": true }
+            ],
+            "tags": ["express", "error handling", "validation", "middleware"]
+          }
+        ]
+      },
+      {
+        "title": "Databases",
+        "order": 3,
+        "topics": [
+          {
+            "title": "MongoDB & Mongoose",
+            "order": 1,
+            "description": "Learn NoSQL database concepts with MongoDB. Use Mongoose for schema definition, data modeling, CRUD operations, and query building.",
+            "estimatedMinutes": 180,
+            "difficulty": "beginner",
+            "resources": [
+              { "title": "MongoDB Official Documentation", "url": "https://www.mongodb.com/docs/manual/", "type": "docs", "isFree": true },
+              { "title": "Mongoose Official Guide", "url": "https://mongoosejs.com/docs/guide.html", "type": "docs", "isFree": true },
+              { "title": "MongoDB Crash Course - Traversy Media", "url": "https://www.youtube.com/watch?v=-56x56UppqQ", "type": "video", "isFree": true },
+              { "title": "MongoDB University - Free Courses", "url": "https://university.mongodb.com/", "type": "course", "isFree": true }
+            ],
+            "tags": ["mongodb", "mongoose", "nosql", "database"]
+          },
+          {
+            "title": "SQL Databases & PostgreSQL",
+            "order": 2,
+            "description": "Understand relational database concepts, write SQL queries, design schemas with PostgreSQL, and learn about joins, indexes, and transactions.",
+            "estimatedMinutes": 150,
+            "difficulty": "intermediate",
+            "resources": [
+              { "title": "PostgreSQL Official Tutorial", "url": "https://www.postgresql.org/docs/current/tutorial.html", "type": "docs", "isFree": true },
+              { "title": "SQL Tutorial - freeCodeCamp", "url": "https://www.freecodecamp.org/learn/relational-database/", "type": "course", "isFree": true },
+              { "title": "SQL Full Course - freeCodeCamp", "url": "https://www.youtube.com/watch?v=HXV3zeQKqGY", "type": "video", "isFree": true }
+            ],
+            "tags": ["sql", "postgresql", "relational database", "queries"]
+          },
+          {
+            "title": "Database Design & Optimization",
+            "order": 3,
+            "description": "Learn schema design patterns, normalization, indexing strategies, aggregation pipelines, and query performance optimization.",
+            "estimatedMinutes": 120,
+            "difficulty": "intermediate",
+            "resources": [
+              { "title": "MongoDB Schema Design Best Practices", "url": "https://www.mongodb.com/developer/products/mongodb/mongodb-schema-design-best-practices/", "type": "article", "isFree": true },
+              { "title": "MongoDB Indexing Tutorial", "url": "https://www.mongodb.com/docs/manual/indexes/", "type": "docs", "isFree": true }
+            ],
+            "tags": ["database design", "indexing", "optimization", "schema"]
+          }
+        ]
+      },
+      {
+        "title": "RESTful API Development",
+        "order": 4,
+        "topics": [
+          {
+            "title": "REST Principles & API Design",
+            "order": 1,
+            "description": "Master REST architecture principles, HTTP methods, status codes, resource naming conventions, and API versioning strategies.",
+            "estimatedMinutes": 120,
+            "difficulty": "beginner",
+            "resources": [
+              { "title": "MDN - HTTP Overview", "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview", "type": "docs", "isFree": true },
+              { "title": "RESTful API Design - Best Practices", "url": "https://restfulapi.net/", "type": "article", "isFree": true },
+              { "title": "Build a REST API with Node.js - freeCodeCamp", "url": "https://www.youtube.com/watch?v=fgTGADljAMg", "type": "video", "isFree": true }
+            ],
+            "tags": ["rest", "api design", "http", "endpoints"]
+          },
+          {
+            "title": "API Documentation with Swagger",
+            "order": 2,
+            "description": "Document your APIs using OpenAPI Specification and Swagger UI for interactive, auto-generated API documentation.",
+            "estimatedMinutes": 60,
+            "difficulty": "intermediate",
+            "resources": [
+              { "title": "Swagger Official Docs", "url": "https://swagger.io/docs/", "type": "docs", "isFree": true },
+              { "title": "swagger-jsdoc npm Package", "url": "https://www.npmjs.com/package/swagger-jsdoc", "type": "docs", "isFree": true }
+            ],
+            "tags": ["swagger", "openapi", "documentation", "api"]
+          }
+        ]
+      },
+      {
+        "title": "Authentication & Authorization",
+        "order": 5,
+        "topics": [
+          {
+            "title": "JWT Authentication",
+            "order": 1,
+            "description": "Implement secure user authentication using JSON Web Tokens including registration, login, token generation, and route protection.",
+            "estimatedMinutes": 150,
+            "difficulty": "intermediate",
+            "resources": [
+              { "title": "JWT.io - Introduction to JSON Web Tokens", "url": "https://jwt.io/introduction", "type": "article", "isFree": true },
+              { "title": "Node.js Auth Tutorial (JWT) - The Net Ninja", "url": "https://www.youtube.com/playlist?list=PL4cUxeGkcC9iqqESP8335DA5cRFp8loyp", "type": "video", "isFree": true },
+              { "title": "jsonwebtoken npm Package", "url": "https://www.npmjs.com/package/jsonwebtoken", "type": "docs", "isFree": true }
+            ],
+            "tags": ["jwt", "authentication", "tokens", "security"]
+          },
+          {
+            "title": "OAuth 2.0 & Social Login",
+            "order": 2,
+            "description": "Integrate third-party authentication providers like Google, GitHub, and Facebook using OAuth 2.0 and Passport.js strategies.",
+            "estimatedMinutes": 120,
+            "difficulty": "intermediate",
+            "resources": [
+              { "title": "Passport.js Official Docs", "url": "https://www.passportjs.org/docs/", "type": "docs", "isFree": true },
+              { "title": "OAuth 2.0 Simplified", "url": "https://aaronparecki.com/oauth-2-simplified/", "type": "article", "isFree": true }
+            ],
+            "tags": ["oauth", "passport", "social login", "authentication"]
+          },
+          {
+            "title": "Role-Based Access Control",
+            "order": 3,
+            "description": "Implement role-based authorization to restrict access to resources based on user roles and permissions.",
+            "estimatedMinutes": 90,
+            "difficulty": "intermediate",
+            "resources": [
+              { "title": "Node.js Role Based Authorization Tutorial", "url": "https://jasonwatmore.com/nodejs-role-based-authorization-tutorial-with-example-api", "type": "tutorial", "isFree": true },
+              { "title": "CASL - Isomorphic Authorization for JavaScript", "url": "https://casl.js.org/v6/en/", "type": "docs", "isFree": true }
+            ],
+            "tags": ["rbac", "authorization", "roles", "permissions"]
+          }
+        ]
+      },
+      {
+        "title": "Security & Performance",
+        "order": 6,
+        "topics": [
+          {
+            "title": "API Security Best Practices",
+            "order": 1,
+            "description": "Protect APIs against common vulnerabilities: rate limiting, CORS, helmet headers, input sanitization, and HTTPS enforcement.",
+            "estimatedMinutes": 120,
+            "difficulty": "intermediate",
+            "resources": [
+              { "title": "OWASP Node.js Security Cheat Sheet", "url": "https://cheatsheetseries.owasp.org/cheatsheets/Nodejs_Security_Cheat_Sheet.html", "type": "article", "isFree": true },
+              { "title": "Helmet.js - Secure Express Apps", "url": "https://helmetjs.github.io/", "type": "docs", "isFree": true },
+              { "title": "Express Rate Limit npm", "url": "https://www.npmjs.com/package/express-rate-limit", "type": "docs", "isFree": true }
+            ],
+            "tags": ["security", "helmet", "rate limiting", "cors"]
+          },
+          {
+            "title": "Caching & Performance",
+            "order": 2,
+            "description": "Improve API response times with Redis caching, response compression, query optimization, and pagination strategies.",
+            "estimatedMinutes": 90,
+            "difficulty": "intermediate",
+            "resources": [
+              { "title": "Redis Official Documentation", "url": "https://redis.io/docs/", "type": "docs", "isFree": true },
+              { "title": "Node.js Performance Best Practices", "url": "https://nodejs.org/en/docs/guides/dont-block-the-event-loop", "type": "docs", "isFree": true }
+            ],
+            "tags": ["caching", "redis", "performance", "optimization"]
+          }
+        ]
+      },
+      {
+        "title": "Deployment & DevOps Basics",
+        "order": 7,
+        "topics": [
+          {
+            "title": "Environment Management & Logging",
+            "order": 1,
+            "description": "Manage application configuration across environments with dotenv, implement structured logging with Winston or Morgan, and monitor health checks.",
+            "estimatedMinutes": 60,
+            "difficulty": "intermediate",
+            "resources": [
+              { "title": "dotenv npm Package", "url": "https://www.npmjs.com/package/dotenv", "type": "docs", "isFree": true },
+              { "title": "Winston Logger Documentation", "url": "https://www.npmjs.com/package/winston", "type": "docs", "isFree": true }
+            ],
+            "tags": ["dotenv", "logging", "environment", "configuration"]
+          },
+          {
+            "title": "Deploying Node.js Applications",
+            "order": 2,
+            "description": "Deploy backend apps to cloud platforms like Railway, Render, and AWS. Learn about process managers, reverse proxies, and production configurations.",
+            "estimatedMinutes": 120,
+            "difficulty": "intermediate",
+            "resources": [
+              { "title": "Render Deployment Docs", "url": "https://render.com/docs", "type": "docs", "isFree": true },
+              { "title": "Railway Docs - Deploy Node.js", "url": "https://docs.railway.app/", "type": "docs", "isFree": true },
+              { "title": "Deploy Node.js App - Traversy Media", "url": "https://www.youtube.com/watch?v=l134cBAJCuc", "type": "video", "isFree": true }
+            ],
+            "tags": ["deployment", "railway", "render", "production"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Full Stack Development",
+    "slug": "full-stack-development",
+    "description": "Become a complete full-stack developer by mastering both frontend and backend technologies. This roadmap covers the MERN stack, API integration, DevOps practices, and production-grade application development.",
+    "icon": "Layers",
+    "category": "fullstack",
+    "difficulty": "intermediate",
+    "estimatedHours": 500,
+    "tags": ["mern", "fullstack", "react", "node.js", "mongodb", "express"],
+    "sections": [
+      {
+        "title": "Frontend Foundations",
+        "order": 1,
+        "topics": [
+          {
+            "title": "HTML, CSS & JavaScript Review",
+            "order": 1,
+            "description": "A rapid review of core web technologies: semantic HTML, modern CSS (Flexbox, Grid), and JavaScript ES6+ features as prerequisites for full-stack development.",
+            "estimatedMinutes": 240,
+            "difficulty": "beginner",
+            "resources": [
+              { "title": "The Odin Project - Foundations", "url": "https://www.theodinproject.com/paths/foundations", "type": "course", "isFree": true },
+              { "title": "freeCodeCamp - Responsive Web Design", "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/", "type": "course", "isFree": true },
+              { "title": "JavaScript.info - The Modern JavaScript Tutorial", "url": "https://javascript.info/", "type": "tutorial", "isFree": true }
+            ],
+            "tags": ["html", "css", "javascript", "foundations"]
+          },
+          {
+            "title": "React & Component Architecture",
+            "order": 2,
+            "description": "Build dynamic user interfaces with React, focusing on component design patterns, hooks, context API, and clean architecture principles.",
+            "estimatedMinutes": 300,
+            "difficulty": "intermediate",
+            "resources": [
+              { "title": "React Official Documentation", "url": "https://react.dev/learn", "type": "docs", "isFree": true },
+              { "title": "Full React Course - freeCodeCamp", "url": "https://www.youtube.com/watch?v=bMknfKXIFA8", "type": "video", "isFree": true }
+            ],
+            "tags": ["react", "components", "hooks", "architecture"]
+          },
+          {
+            "title": "State Management with Redux Toolkit",
+            "order": 3,
+            "description": "Manage complex application state with Redux Toolkit, including slices, async thunks, RTK Query for data fetching, and middleware patterns.",
+            "estimatedMinutes": 180,
+            "difficulty": "intermediate",
+            "resources": [
+              { "title": "Redux Toolkit Official Docs", "url": "https://redux-toolkit.js.org/introduction/getting-started", "type": "docs", "isFree": true },
+              { "title": "Redux Toolkit Tutorial - The Net Ninja", "url": "https://www.youtube.com/playlist?list=PL4cUxeGkcC9ij8CfkAY2RAGb-tmkNwQHG", "type": "video", "isFree": true }
+            ],
+            "tags": ["redux", "state management", "rtk query", "react"]
+          }
+        ]
+      },
+      {
+        "title": "Backend Foundations",
+        "order": 2,
+        "topics": [
+          {
+            "title": "Node.js & Express API Server",
+            "order": 1,
+            "description": "Set up a Node.js server with Express, implement RESTful routes, middleware chains, error handling, and input validation.",
+            "estimatedMinutes": 240,
+            "difficulty": "intermediate",
+            "resources": [
+              { "title": "Express.js Official Guide", "url": "https://expressjs.com/en/guide/routing.html", "type": "docs", "isFree": true },
+              { "title": "Build a REST API with Node.js & Express - freeCodeCamp", "url": "https://www.youtube.com/watch?v=fgTGADljAMg", "type": "video", "isFree": true }
+            ],
+            "tags": ["node.js", "express", "rest api", "server"]
+          },
+          {
+            "title": "MongoDB with Mongoose ODM",
+            "order": 2,
+            "description": "Design MongoDB schemas with Mongoose, implement CRUD operations, use aggregation pipelines, and handle relationships between collections.",
+            "estimatedMinutes": 180,
+            "difficulty": "intermediate",
+            "resources": [
+              { "title": "Mongoose Official Documentation", "url": "https://mongoosejs.com/docs/guide.html", "type": "docs", "isFree": true },
+              { "title": "MongoDB University Free Courses", "url": "https://university.mongodb.com/", "type": "course", "isFree": true }
+            ],
+            "tags": ["mongodb", "mongoose", "database", "schema design"]
+          }
+        ]
+      },
+      {
+        "title": "Authentication & Security",
+        "order": 3,
+        "topics": [
+          {
+            "title": "Full-Stack Authentication Flow",
+            "order": 1,
+            "description": "Implement end-to-end authentication with JWT tokens, secure HTTP-only cookies, refresh token rotation, and protected React routes.",
+            "estimatedMinutes": 240,
+            "difficulty": "intermediate",
+            "resources": [
+              { "title": "JWT.io - Introduction", "url": "https://jwt.io/introduction", "type": "article", "isFree": true },
+              { "title": "MERN Auth Tutorial - The Net Ninja", "url": "https://www.youtube.com/playlist?list=PL4cUxeGkcC9iqqESP8335DA5cRFp8loyp", "type": "video", "isFree": true }
+            ],
+            "tags": ["jwt", "authentication", "cookies", "security"]
+          },
+          {
+            "title": "Security Hardening",
+            "order": 2,
+            "description": "Secure your full-stack app with helmet, CORS configuration, rate limiting, XSS/CSRF protection, and input sanitization on both ends.",
+            "estimatedMinutes": 120,
+            "difficulty": "intermediate",
+            "resources": [
+              { "title": "OWASP Top Ten", "url": "https://owasp.org/www-project-top-ten/", "type": "article", "isFree": true },
+              { "title": "Helmet.js Documentation", "url": "https://helmetjs.github.io/", "type": "docs", "isFree": true }
+            ],
+            "tags": ["security", "owasp", "helmet", "cors"]
+          }
+        ]
+      },
+      {
+        "title": "API Integration & Data Flow",
+        "order": 4,
+        "topics": [
+          {
+            "title": "Connecting React to Express APIs",
+            "order": 1,
+            "description": "Wire up your frontend and backend using Axios or fetch, manage loading/error states, implement optimistic updates, and handle file uploads.",
+            "estimatedMinutes": 180,
+            "difficulty": "intermediate",
+            "resources": [
+              { "title": "Axios Documentation", "url": "https://axios-http.com/docs/intro", "type": "docs", "isFree": true },
+              { "title": "React + Node.js Full Stack - Traversy Media", "url": "https://www.youtube.com/watch?v=-0exw-9YJBo", "type": "video", "isFree": true }
+            ],
+            "tags": ["axios", "api integration", "fetch", "data flow"]
+          },
+          {
+            "title": "Real-Time Features with Socket.io",
+            "order": 2,
+            "description": "Add real-time capabilities to your MERN app with Socket.io for features like live chat, notifications, and collaborative editing.",
+            "estimatedMinutes": 120,
+            "difficulty": "intermediate",
+            "resources": [
+              { "title": "Socket.io Official Docs", "url": "https://socket.io/docs/v4/", "type": "docs", "isFree": true },
+              { "title": "Socket.io Chat App - Traversy Media", "url": "https://www.youtube.com/watch?v=jD7FnbI76Hg", "type": "video", "isFree": true }
+            ],
+            "tags": ["socket.io", "websockets", "real-time", "chat"]
+          }
+        ]
+      },
+      {
+        "title": "Testing Full-Stack Apps",
+        "order": 5,
+        "topics": [
+          {
+            "title": "Backend Testing with Jest & Supertest",
+            "order": 1,
+            "description": "Write unit tests for models and services, integration tests for API endpoints using Supertest, and mock database interactions.",
+            "estimatedMinutes": 150,
+            "difficulty": "intermediate",
+            "resources": [
+              { "title": "Jest Official Documentation", "url": "https://jestjs.io/docs/getting-started", "type": "docs", "isFree": true },
+              { "title": "Supertest npm Package", "url": "https://www.npmjs.com/package/supertest", "type": "docs", "isFree": true }
+            ],
+            "tags": ["jest", "supertest", "testing", "backend"]
+          },
+          {
+            "title": "Frontend Testing & E2E",
+            "order": 2,
+            "description": "Test React components with React Testing Library and run end-to-end tests with Cypress to verify full user flows across the stack.",
+            "estimatedMinutes": 150,
+            "difficulty": "intermediate",
+            "resources": [
+              { "title": "React Testing Library Docs", "url": "https://testing-library.com/docs/react-testing-library/intro/", "type": "docs", "isFree": true },
+              { "title": "Cypress Official Docs", "url": "https://docs.cypress.io/guides/overview/why-cypress", "type": "docs", "isFree": true }
+            ],
+            "tags": ["react testing library", "cypress", "e2e", "frontend testing"]
+          }
+        ]
+      },
+      {
+        "title": "DevOps & CI/CD",
+        "order": 6,
+        "topics": [
+          {
+            "title": "Docker for Development",
+            "order": 1,
+            "description": "Containerize your MERN stack app with Docker. Create Dockerfiles, use Docker Compose for multi-service development, and share consistent environments.",
+            "estimatedMinutes": 180,
+            "difficulty": "intermediate",
+            "resources": [
+              { "title": "Docker Official Getting Started", "url": "https://docs.docker.com/get-started/", "type": "docs", "isFree": true },
+              { "title": "Docker Crash Course - Traversy Media", "url": "https://www.youtube.com/watch?v=31ieHmcTUOk", "type": "video", "isFree": true }
+            ],
+            "tags": ["docker", "containers", "docker-compose", "devops"]
+          },
+          {
+            "title": "GitHub Actions CI/CD Pipeline",
+            "order": 2,
+            "description": "Automate testing and deployment workflows using GitHub Actions. Set up continuous integration, automated tests, and continuous deployment pipelines.",
+            "estimatedMinutes": 120,
+            "difficulty": "intermediate",
+            "resources": [
+              { "title": "GitHub Actions Official Docs", "url": "https://docs.github.com/en/actions", "type": "docs", "isFree": true },
+              { "title": "GitHub Actions Tutorial - Fireship", "url": "https://www.youtube.com/watch?v=eB0nUzAI7M8", "type": "video", "isFree": true }
+            ],
+            "tags": ["github actions", "ci/cd", "automation", "devops"]
+          }
+        ]
+      },
+      {
+        "title": "Production Deployment",
+        "order": 7,
+        "topics": [
+          {
+            "title": "Deploying MERN Apps to the Cloud",
+            "order": 1,
+            "description": "Deploy a complete MERN application: React frontend to Vercel/Netlify, Node.js backend to Railway/Render, and MongoDB Atlas for the database.",
+            "estimatedMinutes": 180,
+            "difficulty": "intermediate",
+            "resources": [
+              { "title": "MongoDB Atlas Docs", "url": "https://www.mongodb.com/docs/atlas/", "type": "docs", "isFree": true },
+              { "title": "Full MERN Deployment Guide - Traversy Media", "url": "https://www.youtube.com/watch?v=l134cBAJCuc", "type": "video", "isFree": true }
+            ],
+            "tags": ["deployment", "atlas", "vercel", "production"]
+          },
+          {
+            "title": "Monitoring, Logging & Scaling",
+            "order": 2,
+            "description": "Set up production monitoring with tools like PM2, implement centralized logging, configure alerting, and plan for horizontal scaling.",
+            "estimatedMinutes": 120,
+            "difficulty": "advanced",
+            "resources": [
+              { "title": "PM2 Official Documentation", "url": "https://pm2.keymetrics.io/docs/usage/quick-start/", "type": "docs", "isFree": true },
+              { "title": "Node.js Production Best Practices", "url": "https://expressjs.com/en/advanced/best-practice-performance.html", "type": "article", "isFree": true }
+            ],
+            "tags": ["monitoring", "pm2", "logging", "scaling"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Data Science",
+    "slug": "data-science",
+    "description": "Dive into data science from the ground up with Python. Learn statistics, data wrangling with pandas, visualization, and machine learning fundamentals to extract insights from real-world data.",
+    "icon": "Database",
+    "category": "data-science",
+    "difficulty": "beginner",
+    "estimatedHours": 350,
+    "tags": ["python", "pandas", "statistics", "machine learning", "data science", "visualization"],
+    "sections": [
+      {
+        "title": "Python Fundamentals",
+        "order": 1,
+        "topics": [
+          {
+            "title": "Python Basics: Syntax, Types & Control Flow",
+            "order": 1,
+            "description": "Learn Python fundamentals including variables, data types, strings, lists, dictionaries, loops, conditionals, and functions.",
+            "estimatedMinutes": 240,
+            "difficulty": "beginner",
+            "resources": [
+              { "title": "Python Official Tutorial", "url": "https://docs.python.org/3/tutorial/", "type": "docs", "isFree": true },
+              { "title": "Python for Beginners - freeCodeCamp", "url": "https://www.youtube.com/watch?v=rfscVS0vtbw", "type": "video", "isFree": true },
+              { "title": "Automate the Boring Stuff with Python", "url": "https://automatetheboringstuff.com/", "type": "tutorial", "isFree": true }
+            ],
+            "tags": ["python", "basics", "syntax", "programming"]
+          },
+          {
+            "title": "Python Data Structures & OOP",
+            "order": 2,
+            "description": "Master advanced Python data structures, list comprehensions, generators, decorators, and object-oriented programming principles.",
+            "estimatedMinutes": 180,
+            "difficulty": "beginner",
+            "resources": [
+              { "title": "Python Data Structures - Python Docs", "url": "https://docs.python.org/3/tutorial/datastructures.html", "type": "docs", "isFree": true },
+              { "title": "Python OOP Tutorial - Corey Schafer", "url": "https://www.youtube.com/playlist?list=PL-osiE80TeTsqhIuOqKhwlXsIBIdSeYtc", "type": "video", "isFree": true }
+            ],
+            "tags": ["python", "data structures", "oop", "advanced"]
+          },
+          {
+            "title": "Jupyter Notebooks & Development Environment",
+            "order": 3,
+            "description": "Set up your data science environment with Anaconda, Jupyter Notebooks, and essential tools for interactive data exploration and analysis.",
+            "estimatedMinutes": 60,
+            "difficulty": "beginner",
+            "resources": [
+              { "title": "Jupyter Official Documentation", "url": "https://jupyter.org/documentation", "type": "docs", "isFree": true },
+              { "title": "Jupyter Notebook Tutorial - Dataquest", "url": "https://www.dataquest.io/blog/jupyter-notebook-tutorial/", "type": "tutorial", "isFree": true }
+            ],
+            "tags": ["jupyter", "anaconda", "notebooks", "environment"]
+          }
+        ]
+      },
+      {
+        "title": "Mathematics & Statistics",
+        "order": 2,
+        "topics": [
+          {
+            "title": "Descriptive Statistics & Probability",
+            "order": 1,
+            "description": "Understand measures of central tendency, dispersion, probability distributions, Bayes' theorem, and hypothesis testing fundamentals.",
+            "estimatedMinutes": 240,
+            "difficulty": "beginner",
+            "resources": [
+              { "title": "Khan Academy - Statistics and Probability", "url": "https://www.khanacademy.org/math/statistics-probability", "type": "course", "isFree": true },
+              { "title": "Statistics Fundamentals - StatQuest", "url": "https://www.youtube.com/playlist?list=PLblh5JKOoLUK0FLuzwntyYI10UQFUhsY9", "type": "video", "isFree": true },
+              { "title": "Think Stats - Free Book", "url": "https://greenteapress.com/thinkstats2/html/index.html", "type": "article", "isFree": true }
+            ],
+            "tags": ["statistics", "probability", "hypothesis testing", "math"]
+          },
+          {
+            "title": "Linear Algebra for Data Science",
+            "order": 2,
+            "description": "Learn essential linear algebra concepts: vectors, matrices, matrix operations, eigenvalues, and their applications in data science.",
+            "estimatedMinutes": 180,
+            "difficulty": "intermediate",
+            "resources": [
+              { "title": "Khan Academy - Linear Algebra", "url": "https://www.khanacademy.org/math/linear-algebra", "type": "course", "isFree": true },
+              { "title": "3Blue1Brown - Essence of Linear Algebra", "url": "https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab", "type": "video", "isFree": true }
+            ],
+            "tags": ["linear algebra", "matrices", "vectors", "math"]
+          }
+        ]
+      },
+      {
+        "title": "Data Manipulation with Pandas",
+        "order": 3,
+        "topics": [
+          {
+            "title": "NumPy Arrays & Operations",
+            "order": 1,
+            "description": "Master NumPy for numerical computing: array creation, indexing, slicing, broadcasting, vectorized operations, and random number generation.",
+            "estimatedMinutes": 120,
+            "difficulty": "beginner",
+            "resources": [
+              { "title": "NumPy Official Getting Started", "url": "https://numpy.org/doc/stable/user/quickstart.html", "type": "docs", "isFree": true },
+              { "title": "NumPy Tutorial - freeCodeCamp", "url": "https://www.youtube.com/watch?v=QUT1VHiLmmI", "type": "video", "isFree": true }
+            ],
+            "tags": ["numpy", "arrays", "numerical computing", "python"]
+          },
+          {
+            "title": "Pandas DataFrames & Data Wrangling",
+            "order": 2,
+            "description": "Learn data manipulation with pandas: DataFrames, Series, reading/writing data, filtering, grouping, merging, and handling missing values.",
+            "estimatedMinutes": 240,
+            "difficulty": "beginner",
+            "resources": [
+              { "title": "Pandas Official Getting Started", "url": "https://pandas.pydata.org/docs/getting_started/index.html", "type": "docs", "isFree": true },
+              { "title": "Pandas Tutorial - Corey Schafer", "url": "https://www.youtube.com/playlist?list=PL-osiE80TeTsWmV9i9c58mdDCSskIFdDS", "type": "video", "isFree": true },
+              { "title": "Kaggle - Pandas Course", "url": "https://www.kaggle.com/learn/pandas", "type": "course", "isFree": true }
+            ],
+            "tags": ["pandas", "dataframes", "data wrangling", "python"]
+          },
+          {
+            "title": "Data Cleaning & Preprocessing",
+            "order": 3,
+            "description": "Handle real-world messy data: deal with missing values, outliers, data type conversions, string operations, and feature engineering.",
+            "estimatedMinutes": 150,
+            "difficulty": "intermediate",
+            "resources": [
+              { "title": "Kaggle - Data Cleaning Course", "url": "https://www.kaggle.com/learn/data-cleaning", "type": "course", "isFree": true },
+              { "title": "Real Python - Data Cleaning with Pandas", "url": "https://realpython.com/python-data-cleaning-numpy-pandas/", "type": "tutorial", "isFree": true }
+            ],
+            "tags": ["data cleaning", "preprocessing", "missing values", "pandas"]
+          }
+        ]
+      },
+      {
+        "title": "Data Visualization",
+        "order": 4,
+        "topics": [
+          {
+            "title": "Matplotlib & Seaborn",
+            "order": 1,
+            "description": "Create informative visualizations with Matplotlib for fine-grained control and Seaborn for statistical plots and attractive defaults.",
+            "estimatedMinutes": 150,
+            "difficulty": "beginner",
+            "resources": [
+              { "title": "Matplotlib Official Tutorials", "url": "https://matplotlib.org/stable/tutorials/index.html", "type": "docs", "isFree": true },
+              { "title": "Seaborn Official Tutorial", "url": "https://seaborn.pydata.org/tutorial.html", "type": "docs", "isFree": true },
+              { "title": "Data Visualization with Python - freeCodeCamp", "url": "https://www.youtube.com/watch?v=a9UrKTVEeZA", "type": "video", "isFree": true }
+            ],
+            "tags": ["matplotlib", "seaborn", "visualization", "charts"]
+          },
+          {
+            "title": "Interactive Visualizations with Plotly",
+            "order": 2,
+            "description": "Build interactive, web-ready dashboards and charts using Plotly Express and Dash for dynamic data exploration.",
+            "estimatedMinutes": 120,
+            "difficulty": "intermediate",
+            "resources": [
+              { "title": "Plotly Python Official Docs", "url": "https://plotly.com/python/", "type": "docs", "isFree": true },
+              { "title": "Dash Official Tutorial", "url": "https://dash.plotly.com/tutorial", "type": "tutorial", "isFree": true }
+            ],
+            "tags": ["plotly", "dash", "interactive", "visualization"]
+          }
+        ]
+      },
+      {
+        "title": "Machine Learning Basics",
+        "order": 5,
+        "topics": [
+          {
+            "title": "Scikit-Learn: Regression & Classification",
+            "order": 1,
+            "description": "Learn supervised learning with scikit-learn: linear regression, logistic regression, decision trees, random forests, and model evaluation metrics.",
+            "estimatedMinutes": 240,
+            "difficulty": "intermediate",
+            "resources": [
+              { "title": "Scikit-Learn Official Tutorial", "url": "https://scikit-learn.org/stable/tutorial/index.html", "type": "docs", "isFree": true },
+              { "title": "Machine Learning with Scikit-Learn - freeCodeCamp", "url": "https://www.youtube.com/watch?v=pqNCD_5r0IU", "type": "video", "isFree": true },
+              { "title": "Kaggle - Intro to Machine Learning", "url": "https://www.kaggle.com/learn/intro-to-machine-learning", "type": "course", "isFree": true }
+            ],
+            "tags": ["scikit-learn", "regression", "classification", "supervised learning"]
+          },
+          {
+            "title": "Unsupervised Learning & Clustering",
+            "order": 2,
+            "description": "Explore unsupervised learning techniques: K-means clustering, hierarchical clustering, dimensionality reduction with PCA, and anomaly detection.",
+            "estimatedMinutes": 150,
+            "difficulty": "intermediate",
+            "resources": [
+              { "title": "Scikit-Learn Clustering Guide", "url": "https://scikit-learn.org/stable/modules/clustering.html", "type": "docs", "isFree": true },
+              { "title": "StatQuest - K-means Clustering", "url": "https://www.youtube.com/watch?v=4b5d3muPQmA", "type": "video", "isFree": true }
+            ],
+            "tags": ["clustering", "k-means", "pca", "unsupervised learning"]
+          }
+        ]
+      },
+      {
+        "title": "Real-World Projects & Capstone",
+        "order": 6,
+        "topics": [
+          {
+            "title": "Exploratory Data Analysis Project",
+            "order": 1,
+            "description": "Apply your skills to a real-world dataset: formulate questions, perform EDA, create visualizations, and present insights using Jupyter Notebooks.",
+            "estimatedMinutes": 300,
+            "difficulty": "intermediate",
+            "resources": [
+              { "title": "Kaggle Datasets", "url": "https://www.kaggle.com/datasets", "type": "tutorial", "isFree": true },
+              { "title": "EDA with Python - Towards Data Science", "url": "https://towardsdatascience.com/exploratory-data-analysis-8fc1cb20fd15", "type": "article", "isFree": true }
+            ],
+            "tags": ["eda", "project", "kaggle", "analysis"]
+          },
+          {
+            "title": "End-to-End ML Pipeline",
+            "order": 2,
+            "description": "Build a complete machine learning pipeline from data collection through model deployment, including feature engineering, training, and evaluation.",
+            "estimatedMinutes": 300,
+            "difficulty": "intermediate",
+            "resources": [
+              { "title": "Kaggle - Intermediate Machine Learning", "url": "https://www.kaggle.com/learn/intermediate-machine-learning", "type": "course", "isFree": true },
+              { "title": "Full Stack ML Project - freeCodeCamp", "url": "https://www.youtube.com/watch?v=Wqmtf9SA_kk", "type": "video", "isFree": true }
+            ],
+            "tags": ["ml pipeline", "project", "deployment", "end-to-end"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "AI & Machine Learning",
+    "slug": "ai-and-machine-learning",
+    "description": "Master artificial intelligence and machine learning from mathematical foundations through deep learning and NLP. This roadmap covers essential theory, practical implementation with Python, and real-world model deployment.",
+    "icon": "Brain",
+    "category": "ai-ml",
+    "difficulty": "intermediate",
+    "estimatedHours": 400,
+    "tags": ["ai", "machine learning", "deep learning", "nlp", "python", "tensorflow"],
+    "sections": [
+      {
+        "title": "Mathematical Foundations",
+        "order": 1,
+        "topics": [
+          {
+            "title": "Linear Algebra for ML",
+            "order": 1,
+            "description": "Build a strong mathematical foundation with vectors, matrices, eigendecomposition, and SVD as they apply to machine learning algorithms.",
+            "estimatedMinutes": 240,
+            "difficulty": "intermediate",
+            "resources": [
+              { "title": "3Blue1Brown - Essence of Linear Algebra", "url": "https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab", "type": "video", "isFree": true },
+              { "title": "Khan Academy - Linear Algebra", "url": "https://www.khanacademy.org/math/linear-algebra", "type": "course", "isFree": true },
+              { "title": "Mathematics for Machine Learning - Book", "url": "https://mml-book.github.io/", "type": "article", "isFree": true }
+            ],
+            "tags": ["linear algebra", "matrices", "math", "foundations"]
+          },
+          {
+            "title": "Calculus & Optimization",
+            "order": 2,
+            "description": "Understand derivatives, partial derivatives, gradients, chain rule, and optimization techniques like gradient descent that power ML training.",
+            "estimatedMinutes": 180,
+            "difficulty": "intermediate",
+            "resources": [
+              { "title": "3Blue1Brown - Essence of Calculus", "url": "https://www.youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr", "type": "video", "isFree": true },
+              { "title": "Khan Academy - Multivariable Calculus", "url": "https://www.khanacademy.org/math/multivariable-calculus", "type": "course", "isFree": true }
+            ],
+            "tags": ["calculus", "gradient descent", "optimization", "math"]
+          },
+          {
+            "title": "Probability & Statistics for ML",
+            "order": 3,
+            "description": "Master probability distributions, Bayesian thinking, maximum likelihood estimation, and statistical inference used throughout machine learning.",
+            "estimatedMinutes": 180,
+            "difficulty": "intermediate",
+            "resources": [
+              { "title": "StatQuest - Statistics Fundamentals", "url": "https://www.youtube.com/playlist?list=PLblh5JKOoLUK0FLuzwntyYI10UQFUhsY9", "type": "video", "isFree": true },
+              { "title": "Khan Academy - Statistics & Probability", "url": "https://www.khanacademy.org/math/statistics-probability", "type": "course", "isFree": true }
+            ],
+            "tags": ["probability", "statistics", "bayesian", "inference"]
+          }
+        ]
+      },
+      {
+        "title": "Python for Machine Learning",
+        "order": 2,
+        "topics": [
+          {
+            "title": "NumPy, Pandas & Data Preprocessing",
+            "order": 1,
+            "description": "Master the Python data stack: NumPy for numerical operations, Pandas for data manipulation, and scikit-learn preprocessors for feature engineering.",
+            "estimatedMinutes": 180,
+            "difficulty": "beginner",
+            "resources": [
+              { "title": "NumPy Quickstart Tutorial", "url": "https://numpy.org/doc/stable/user/quickstart.html", "type": "docs", "isFree": true },
+              { "title": "Pandas Official Documentation", "url": "https://pandas.pydata.org/docs/getting_started/index.html", "type": "docs", "isFree": true },
+              { "title": "Python for Data Science - freeCodeCamp", "url": "https://www.youtube.com/watch?v=LHBE6Q9XlzI", "type": "video", "isFree": true }
+            ],
+            "tags": ["numpy", "pandas", "preprocessing", "python"]
+          },
+          {
+            "title": "Data Visualization for ML",
+            "order": 2,
+            "description": "Visualize data distributions, model performance, and feature importance using Matplotlib, Seaborn, and Plotly for ML insights.",
+            "estimatedMinutes": 90,
+            "difficulty": "beginner",
+            "resources": [
+              { "title": "Matplotlib Tutorials", "url": "https://matplotlib.org/stable/tutorials/index.html", "type": "docs", "isFree": true },
+              { "title": "Seaborn Tutorial", "url": "https://seaborn.pydata.org/tutorial.html", "type": "docs", "isFree": true }
+            ],
+            "tags": ["matplotlib", "seaborn", "visualization", "eda"]
+          }
+        ]
+      },
+      {
+        "title": "Classical Machine Learning",
+        "order": 3,
+        "topics": [
+          {
+            "title": "Supervised Learning Algorithms",
+            "order": 1,
+            "description": "Implement and understand linear/logistic regression, SVM, decision trees, random forests, gradient boosting, and ensemble methods with scikit-learn.",
+            "estimatedMinutes": 300,
+            "difficulty": "intermediate",
+            "resources": [
+              { "title": "Scikit-Learn User Guide", "url": "https://scikit-learn.org/stable/user_guide.html", "type": "docs", "isFree": true },
+              { "title": "Machine Learning Course - Andrew Ng (Coursera)", "url": "https://www.coursera.org/learn/machine-learning", "type": "course", "isFree": false },
+              { "title": "StatQuest - Machine Learning", "url": "https://www.youtube.com/playlist?list=PLblh5JKOoLUICTaGLRoHQDuF_7q2GfuJF", "type": "video", "isFree": true }
+            ],
+            "tags": ["supervised learning", "classification", "regression", "scikit-learn"]
+          },
+          {
+            "title": "Unsupervised Learning & Dimensionality Reduction",
+            "order": 2,
+            "description": "Learn clustering (K-means, DBSCAN, hierarchical), dimensionality reduction (PCA, t-SNE, UMAP), and anomaly detection techniques.",
+            "estimatedMinutes": 180,
+            "difficulty": "intermediate",
+            "resources": [
+              { "title": "Scikit-Learn Clustering", "url": "https://scikit-learn.org/stable/modules/clustering.html", "type": "docs", "isFree": true },
+              { "title": "StatQuest - PCA Main Ideas", "url": "https://www.youtube.com/watch?v=HMOI_lkzW08", "type": "video", "isFree": true }
+            ],
+            "tags": ["clustering", "pca", "unsupervised", "dimensionality reduction"]
+          },
+          {
+            "title": "Model Evaluation & Hyperparameter Tuning",
+            "order": 3,
+            "description": "Master cross-validation, metrics (accuracy, precision, recall, F1, AUC-ROC), grid search, random search, and Bayesian optimization for model selection.",
+            "estimatedMinutes": 150,
+            "difficulty": "intermediate",
+            "resources": [
+              { "title": "Scikit-Learn Model Evaluation", "url": "https://scikit-learn.org/stable/modules/model_evaluation.html", "type": "docs", "isFree": true },
+              { "title": "Kaggle - Intermediate ML (Pipelines, Cross-Validation)", "url": "https://www.kaggle.com/learn/intermediate-machine-learning", "type": "course", "isFree": true }
+            ],
+            "tags": ["evaluation", "cross-validation", "hyperparameter tuning", "metrics"]
+          }
+        ]
+      },
+      {
+        "title": "Deep Learning",
+        "order": 4,
+        "topics": [
+          {
+            "title": "Neural Networks & TensorFlow/Keras",
+            "order": 1,
+            "description": "Build neural networks from scratch, then implement with TensorFlow and Keras. Learn activation functions, backpropagation, and training techniques.",
+            "estimatedMinutes": 300,
+            "difficulty": "intermediate",
+            "resources": [
+              { "title": "TensorFlow Official Tutorials", "url": "https://www.tensorflow.org/tutorials", "type": "docs", "isFree": true },
+              { "title": "Deep Learning Specialization - Andrew Ng", "url": "https://www.coursera.org/specializations/deep-learning", "type": "course", "isFree": false },
+              { "title": "Neural Networks from Scratch - 3Blue1Brown", "url": "https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi", "type": "video", "isFree": true }
+            ],
+            "tags": ["neural networks", "tensorflow", "keras", "deep learning"]
+          },
+          {
+            "title": "Convolutional Neural Networks (CNNs)",
+            "order": 2,
+            "description": "Understand CNN architectures for image recognition: convolution layers, pooling, transfer learning with ResNet, VGG, and EfficientNet.",
+            "estimatedMinutes": 240,
+            "difficulty": "advanced",
+            "resources": [
+              { "title": "TensorFlow CNN Tutorial", "url": "https://www.tensorflow.org/tutorials/images/cnn", "type": "docs", "isFree": true },
+              { "title": "CS231n - Stanford CNN Course", "url": "https://cs231n.stanford.edu/", "type": "course", "isFree": true }
+            ],
+            "tags": ["cnn", "computer vision", "transfer learning", "image recognition"]
+          },
+          {
+            "title": "Recurrent Neural Networks & Transformers",
+            "order": 3,
+            "description": "Learn sequence models: RNNs, LSTMs, GRUs for time-series data, and the Transformer architecture that powers modern NLP models.",
+            "estimatedMinutes": 240,
+            "difficulty": "advanced",
+            "resources": [
+              { "title": "TensorFlow RNN Guide", "url": "https://www.tensorflow.org/guide/keras/rnn", "type": "docs", "isFree": true },
+              { "title": "Illustrated Transformer - Jay Alammar", "url": "https://jalammar.github.io/illustrated-transformer/", "type": "article", "isFree": true },
+              { "title": "Attention Is All You Need - Paper", "url": "https://arxiv.org/abs/1706.03762", "type": "article", "isFree": true }
+            ],
+            "tags": ["rnn", "lstm", "transformers", "attention"]
+          }
+        ]
+      },
+      {
+        "title": "Natural Language Processing",
+        "order": 5,
+        "topics": [
+          {
+            "title": "NLP Fundamentals & Text Processing",
+            "order": 1,
+            "description": "Learn text preprocessing, tokenization, stemming, lemmatization, TF-IDF, word embeddings (Word2Vec, GloVe), and sentiment analysis.",
+            "estimatedMinutes": 180,
+            "difficulty": "intermediate",
+            "resources": [
+              { "title": "Hugging Face NLP Course", "url": "https://huggingface.co/learn/nlp-course", "type": "course", "isFree": true },
+              { "title": "NLTK Official Documentation", "url": "https://www.nltk.org/", "type": "docs", "isFree": true },
+              { "title": "spaCy 101 - Official Guide", "url": "https://spacy.io/usage/spacy-101", "type": "docs", "isFree": true }
+            ],
+            "tags": ["nlp", "tokenization", "embeddings", "text processing"]
+          },
+          {
+            "title": "Large Language Models & Hugging Face",
+            "order": 2,
+            "description": "Work with pre-trained language models using Hugging Face Transformers: BERT, GPT, fine-tuning, prompt engineering, and building NLP applications.",
+            "estimatedMinutes": 240,
+            "difficulty": "advanced",
+            "resources": [
+              { "title": "Hugging Face Transformers Docs", "url": "https://huggingface.co/docs/transformers/index", "type": "docs", "isFree": true },
+              { "title": "Hugging Face Course - Fine-Tuning", "url": "https://huggingface.co/learn/nlp-course/chapter3", "type": "course", "isFree": true }
+            ],
+            "tags": ["llm", "bert", "gpt", "hugging face", "transformers"]
+          }
+        ]
+      },
+      {
+        "title": "MLOps & Model Deployment",
+        "order": 6,
+        "topics": [
+          {
+            "title": "Experiment Tracking & Model Management",
+            "order": 1,
+            "description": "Track experiments with MLflow, version models, manage datasets, and set up reproducible ML pipelines for team collaboration.",
+            "estimatedMinutes": 120,
+            "difficulty": "intermediate",
+            "resources": [
+              { "title": "MLflow Official Documentation", "url": "https://mlflow.org/docs/latest/index.html", "type": "docs", "isFree": true },
+              { "title": "Weights & Biases Docs", "url": "https://docs.wandb.ai/", "type": "docs", "isFree": true }
+            ],
+            "tags": ["mlflow", "experiment tracking", "model management", "mlops"]
+          },
+          {
+            "title": "Deploying ML Models",
+            "order": 2,
+            "description": "Deploy ML models as REST APIs using FastAPI or Flask, containerize with Docker, and serve on cloud platforms like AWS SageMaker or Hugging Face Spaces.",
+            "estimatedMinutes": 180,
+            "difficulty": "advanced",
+            "resources": [
+              { "title": "FastAPI Official Docs", "url": "https://fastapi.tiangolo.com/", "type": "docs", "isFree": true },
+              { "title": "Hugging Face Spaces", "url": "https://huggingface.co/docs/hub/spaces", "type": "docs", "isFree": true },
+              { "title": "ML Model Deployment - freeCodeCamp", "url": "https://www.youtube.com/watch?v=viawg8_fRGY", "type": "video", "isFree": true }
+            ],
+            "tags": ["deployment", "fastapi", "docker", "api"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "DevOps Engineering",
+    "slug": "devops-engineering",
+    "description": "Learn the DevOps philosophy and toolchain for building, deploying, and managing applications at scale. From Linux fundamentals through CI/CD pipelines, Docker, Kubernetes, and cloud infrastructure.",
+    "icon": "Smartphone",
+    "category": "devops",
+    "difficulty": "intermediate",
+    "estimatedHours": 300,
+    "tags": ["devops", "docker", "kubernetes", "ci/cd", "linux", "cloud", "aws"],
+    "sections": [
+      {
+        "title": "Linux Fundamentals",
+        "order": 1,
+        "topics": [
+          {
+            "title": "Linux Command Line & Shell Scripting",
+            "order": 1,
+            "description": "Master essential Linux commands, file system navigation, permissions, package management, and write shell scripts for automation.",
+            "estimatedMinutes": 240,
+            "difficulty": "beginner",
+            "resources": [
+              { "title": "Linux Journey", "url": "https://linuxjourney.com/", "type": "tutorial", "isFree": true },
+              { "title": "Linux Command Line Tutorial - freeCodeCamp", "url": "https://www.youtube.com/watch?v=ZtqBQ68cfJc", "type": "video", "isFree": true },
+              { "title": "The Linux Command Line - Free Book", "url": "https://linuxcommand.org/tlcl.php", "type": "article", "isFree": true }
+            ],
+            "tags": ["linux", "command line", "bash", "shell scripting"]
+          },
+          {
+            "title": "System Administration Basics",
+            "order": 2,
+            "description": "Learn user management, process management, system services (systemd), cron jobs, log management, and SSH configuration.",
+            "estimatedMinutes": 150,
+            "difficulty": "beginner",
+            "resources": [
+              { "title": "Linux System Administration Handbook", "url": "https://www.oreilly.com/library/view/linux-administration-a/9781789954272/", "type": "article", "isFree": false },
+              { "title": "Linux Server Course - freeCodeCamp", "url": "https://www.youtube.com/watch?v=WMy3OzvBWc0", "type": "video", "isFree": true }
+            ],
+            "tags": ["sysadmin", "systemd", "ssh", "processes"]
+          }
+        ]
+      },
+      {
+        "title": "Networking Fundamentals",
+        "order": 2,
+        "topics": [
+          {
+            "title": "TCP/IP, DNS & HTTP",
+            "order": 1,
+            "description": "Understand core networking concepts: TCP/IP model, DNS resolution, HTTP/HTTPS protocols, load balancing, and network troubleshooting tools.",
+            "estimatedMinutes": 180,
+            "difficulty": "beginner",
+            "resources": [
+              { "title": "Computer Networking Course - freeCodeCamp", "url": "https://www.youtube.com/watch?v=qiQR5rTSshw", "type": "video", "isFree": true },
+              { "title": "MDN - HTTP Overview", "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview", "type": "docs", "isFree": true },
+              { "title": "How DNS Works - Comic", "url": "https://howdns.works/", "type": "article", "isFree": true }
+            ],
+            "tags": ["networking", "tcp/ip", "dns", "http"]
+          },
+          {
+            "title": "Firewalls, Proxies & Security",
+            "order": 2,
+            "description": "Configure firewalls (iptables, ufw), understand reverse proxies (Nginx), SSL/TLS certificates, and network security best practices.",
+            "estimatedMinutes": 120,
+            "difficulty": "intermediate",
+            "resources": [
+              { "title": "Nginx Documentation", "url": "https://nginx.org/en/docs/", "type": "docs", "isFree": true },
+              { "title": "NGINX Tutorial for Beginners - TechWorld with Nana", "url": "https://www.youtube.com/watch?v=7VAI73roXaY", "type": "video", "isFree": true }
+            ],
+            "tags": ["nginx", "firewall", "ssl", "security"]
+          }
+        ]
+      },
+      {
+        "title": "Version Control & CI/CD",
+        "order": 3,
+        "topics": [
+          {
+            "title": "Advanced Git Workflows",
+            "order": 1,
+            "description": "Go beyond basic Git: branching strategies (GitFlow, trunk-based), rebasing, cherry-picking, hooks, and managing monorepos.",
+            "estimatedMinutes": 120,
+            "difficulty": "intermediate",
+            "resources": [
+              { "title": "Atlassian Git Tutorials", "url": "https://www.atlassian.com/git/tutorials", "type": "tutorial", "isFree": true },
+              { "title": "Git and GitHub for Beginners - freeCodeCamp", "url": "https://www.youtube.com/watch?v=RGOj5yH7evk", "type": "video", "isFree": true }
+            ],
+            "tags": ["git", "branching", "version control", "workflows"]
+          },
+          {
+            "title": "CI/CD with GitHub Actions & Jenkins",
+            "order": 2,
+            "description": "Build automated CI/CD pipelines: configure GitHub Actions workflows, set up Jenkins pipelines, automate testing, building, and deployment.",
+            "estimatedMinutes": 180,
+            "difficulty": "intermediate",
+            "resources": [
+              { "title": "GitHub Actions Official Docs", "url": "https://docs.github.com/en/actions", "type": "docs", "isFree": true },
+              { "title": "Jenkins Official Tutorial", "url": "https://www.jenkins.io/doc/tutorials/", "type": "docs", "isFree": true },
+              { "title": "CI/CD Pipeline Tutorial - TechWorld with Nana", "url": "https://www.youtube.com/watch?v=7SmtPNSBOY0", "type": "video", "isFree": true }
+            ],
+            "tags": ["ci/cd", "github actions", "jenkins", "automation"]
+          },
+          {
+            "title": "Infrastructure as Code with Terraform",
+            "order": 3,
+            "description": "Define and provision cloud infrastructure using Terraform: HCL syntax, providers, state management, modules, and best practices.",
+            "estimatedMinutes": 180,
+            "difficulty": "intermediate",
+            "resources": [
+              { "title": "Terraform Official Tutorials", "url": "https://developer.hashicorp.com/terraform/tutorials", "type": "docs", "isFree": true },
+              { "title": "Terraform Course - freeCodeCamp", "url": "https://www.youtube.com/watch?v=SLB_c_ayRMo", "type": "video", "isFree": true }
+            ],
+            "tags": ["terraform", "iac", "infrastructure", "provisioning"]
+          }
+        ]
+      },
+      {
+        "title": "Containerization with Docker",
+        "order": 4,
+        "topics": [
+          {
+            "title": "Docker Fundamentals",
+            "order": 1,
+            "description": "Learn containerization concepts, write Dockerfiles, build images, manage containers, volumes, networking, and use Docker Hub for image distribution.",
+            "estimatedMinutes": 240,
+            "difficulty": "intermediate",
+            "resources": [
+              { "title": "Docker Official Getting Started", "url": "https://docs.docker.com/get-started/", "type": "docs", "isFree": true },
+              { "title": "Docker Tutorial for Beginners - TechWorld with Nana", "url": "https://www.youtube.com/watch?v=3c-iBn73dDE", "type": "video", "isFree": true },
+              { "title": "Docker Crash Course - Traversy Media", "url": "https://www.youtube.com/watch?v=31ieHmcTUOk", "type": "video", "isFree": true }
+            ],
+            "tags": ["docker", "containers", "dockerfile", "images"]
+          },
+          {
+            "title": "Docker Compose & Multi-Container Apps",
+            "order": 2,
+            "description": "Orchestrate multi-container applications with Docker Compose. Define services, networks, and volumes in YAML for development and production environments.",
+            "estimatedMinutes": 120,
+            "difficulty": "intermediate",
+            "resources": [
+              { "title": "Docker Compose Official Docs", "url": "https://docs.docker.com/compose/", "type": "docs", "isFree": true },
+              { "title": "Docker Compose Tutorial - The Net Ninja", "url": "https://www.youtube.com/watch?v=TSySwrQcevM", "type": "video", "isFree": true }
+            ],
+            "tags": ["docker-compose", "multi-container", "services", "orchestration"]
+          }
+        ]
+      },
+      {
+        "title": "Container Orchestration with Kubernetes",
+        "order": 5,
+        "topics": [
+          {
+            "title": "Kubernetes Core Concepts",
+            "order": 1,
+            "description": "Understand Kubernetes architecture: pods, deployments, services, namespaces, ConfigMaps, Secrets, and the declarative configuration model.",
+            "estimatedMinutes": 300,
+            "difficulty": "intermediate",
+            "resources": [
+              { "title": "Kubernetes Official Docs", "url": "https://kubernetes.io/docs/tutorials/kubernetes-basics/", "type": "docs", "isFree": true },
+              { "title": "Kubernetes Course - TechWorld with Nana", "url": "https://www.youtube.com/watch?v=X48VuDVv0do", "type": "video", "isFree": true },
+              { "title": "Kubernetes in 100 Seconds - Fireship", "url": "https://www.youtube.com/watch?v=PziYflu8cB8", "type": "video", "isFree": true }
+            ],
+            "tags": ["kubernetes", "k8s", "pods", "deployments"]
+          },
+          {
+            "title": "Helm Charts & K8s Management",
+            "order": 2,
+            "description": "Package and deploy applications with Helm charts, manage K8s clusters with kubectl, and implement monitoring with Prometheus and Grafana.",
+            "estimatedMinutes": 180,
+            "difficulty": "advanced",
+            "resources": [
+              { "title": "Helm Official Documentation", "url": "https://helm.sh/docs/", "type": "docs", "isFree": true },
+              { "title": "Prometheus & Grafana Tutorial", "url": "https://prometheus.io/docs/tutorials/getting_started/", "type": "docs", "isFree": true }
+            ],
+            "tags": ["helm", "prometheus", "grafana", "monitoring"]
+          }
+        ]
+      },
+      {
+        "title": "Cloud Platforms",
+        "order": 6,
+        "topics": [
+          {
+            "title": "AWS Core Services",
+            "order": 1,
+            "description": "Learn essential AWS services: EC2, S3, RDS, Lambda, IAM, VPC, and CloudFormation for building scalable cloud infrastructure.",
+            "estimatedMinutes": 300,
+            "difficulty": "intermediate",
+            "resources": [
+              { "title": "AWS Free Tier & Getting Started", "url": "https://aws.amazon.com/free/", "type": "docs", "isFree": true },
+              { "title": "AWS Certified Cloud Practitioner - freeCodeCamp", "url": "https://www.youtube.com/watch?v=SOTamWNgDKc", "type": "video", "isFree": true },
+              { "title": "AWS Official Documentation", "url": "https://docs.aws.amazon.com/", "type": "docs", "isFree": true }
+            ],
+            "tags": ["aws", "ec2", "s3", "lambda", "cloud"]
+          },
+          {
+            "title": "Multi-Cloud & Cloud-Native Patterns",
+            "order": 2,
+            "description": "Explore Azure and GCP basics, understand cloud-native patterns like microservices, serverless, and event-driven architectures across providers.",
+            "estimatedMinutes": 180,
+            "difficulty": "advanced",
+            "resources": [
+              { "title": "Azure Fundamentals Learning Path", "url": "https://learn.microsoft.com/en-us/training/paths/az-900-describe-cloud-concepts/", "type": "course", "isFree": true },
+              { "title": "Google Cloud Skills Boost", "url": "https://www.cloudskillsboost.google/", "type": "course", "isFree": true }
+            ],
+            "tags": ["azure", "gcp", "multi-cloud", "cloud-native"]
+          }
+        ]
+      },
+      {
+        "title": "Monitoring, Logging & Site Reliability",
+        "order": 7,
+        "topics": [
+          {
+            "title": "Observability Stack",
+            "order": 1,
+            "description": "Implement observability with the ELK stack (Elasticsearch, Logstash, Kibana), Prometheus for metrics, and distributed tracing with Jaeger.",
+            "estimatedMinutes": 180,
+            "difficulty": "intermediate",
+            "resources": [
+              { "title": "Elastic Official Docs", "url": "https://www.elastic.co/guide/index.html", "type": "docs", "isFree": true },
+              { "title": "Grafana Tutorials", "url": "https://grafana.com/tutorials/", "type": "tutorial", "isFree": true }
+            ],
+            "tags": ["elk", "prometheus", "grafana", "observability"]
+          },
+          {
+            "title": "SRE Practices & Incident Management",
+            "order": 2,
+            "description": "Learn Site Reliability Engineering principles: SLOs, SLIs, error budgets, on-call practices, incident response, and chaos engineering basics.",
+            "estimatedMinutes": 120,
+            "difficulty": "advanced",
+            "resources": [
+              { "title": "Google SRE Book - Free Online", "url": "https://sre.google/sre-book/table-of-contents/", "type": "article", "isFree": true },
+              { "title": "SRE Fundamentals - Google Cloud", "url": "https://www.youtube.com/watch?v=uTEL8Ff1Zvk", "type": "video", "isFree": true }
+            ],
+            "tags": ["sre", "incident management", "slo", "reliability"]
+          }
+        ]
+      }
+    ]
+  }
+]
